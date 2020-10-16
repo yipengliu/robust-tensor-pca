@@ -17,7 +17,7 @@ mu = 3e-3;
 
 for iter = 1:maxiter
     L = FDFC(X - S + Y/mu);
-	S = prox_l1(X - L + Y/mu,lambda/mu);
+    S = prox_l1(X - L + Y/mu,lambda/mu);
     Y = Y + mu * (X - L - S);
     mu = rho*mu; 
     
