@@ -8,7 +8,7 @@ The matlab codes are for some recent advanced on robust tensor principal compone
 
 - The "frequency_filtered_TRPCA" is for the experiments in the paper using frequency-filter tensor PCA [3].
 
-- The codes for the experiments using Smooth Robust Tensor Principal Component Analysis [4], can be availabe at: 
+- The codes for the experiments using smooth robust tensor PCA [4], can be availabe at: 
 https://github.com/yipengliu/srtpca
 
 [1] Yipeng Liu, Longxi Chen, Ce Zhu, "Improved Robust Tensor Principal Component Analysis via Low Rank Core Matrix," IEEE Journal of Selected Topics in Signal Processing, vol. 12, no. 6, pp. 1378 - 1389, 2018.  
