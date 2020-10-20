@@ -1,9 +1,9 @@
-# advanced-tensor-robust-principal-component-analysis
+# robust-tensor-principal-component-analysis
 
-The matlab code is for some recent advanced tensor robust principal component analysis methods.
+The matlab codes are for some recent advanced on robust tensor principal component analysis methods.
 
-- The "core_matrix_TRPCA" is for the paper "Improved Robust Tensor Principal Component Analysis via Low Rank Core Matrix"
+- The file "core_matrix_TRPCA" is for the experiments in the paper:  Yipeng Liu, Longxi Chen, Ce Zhu, "Improved Robust Tensor Principal Component Analysis via Low Rank Core Matrix," IEEE Journal of Selected Topics in Signal Processing, vol. 12, no. 6, pp. 1378 - 1389, 2018.  
 
-- The "block_TRPCA" is for the paper "Robust Block Tensor Principal Component Analysis"
+- The file "block_TRPCA" is for the experiments in the paper: Lanlan Feng, Yipeng Liu, Longxi Chen, Xiang Zhang, Ce Zhu, "Robust Block Tensor Principal Component Analysis," Signal Processing,  vol. 166, no. 107271, pp. 1 - 13, 2020. 
 
-- The "frequency_filtered_TRPCA" is for the paper "Frequency-Filtered Robust Tensor Principal Component Analysis"
+- The "frequency_filtered_TRPCA" is for the experiments in the paper: Shenghan Wang, Yipeng Liu, Lanlan Feng, and Ce Zhu, "Frequency-filtered Robust Tensor Principal Component Analysis," arXiv preprint arXiv:2004.10068, 2020.
