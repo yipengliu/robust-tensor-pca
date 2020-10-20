@@ -4,12 +4,12 @@ clc,clear all;
 addpath('./core_matrix_TRPCA');
 addpath('./core_matrix_TRPCA/tools');
 load video.mat;
-data = im2double(data);
-[n1,n2,n3] = size(data);
-X = reshape(data,n1,n2,n3);
+X = im2double(data);
+[n1,n2,n3] = size(X);
 [L,E] = itrpca_bm(X);
 L = abs(L);
 E = abs(E);
+implay(L)
 
 %% frequency-filter TRPCA
 clc,clear all;
@@ -28,7 +28,8 @@ opts.rho = 1.2;
 opts.max_iter = 500;
 opts.DEBUG = 1;
 [L,E] = trpca_tnn(X,lambda,opts);
-% [L,E] = trpca_fast(X);
+% faster version of frequency-filter TRPCA (without SVDs)
+% [L,E] = trpca_fast(X); 
 L = abs(L);
 E = abs(E);
 implay(L)
